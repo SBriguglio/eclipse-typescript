@@ -4,7 +4,7 @@ set -e
 
 # update the TypeScript code and build
 (
-  cd ../TypeScript
+  cd /c/ProSoft/Repos/TypeScript/TypeScript/
   git fetch
   git checkout origin/release-2.1
   rm -rf built/local
